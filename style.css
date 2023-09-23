@@ -1,0 +1,161 @@
+/*CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/*Navigation Menu*/
+.navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 77px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.navigation-menu {
+  height: 50px;
+  width: 90%;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.logo p {
+  font-size: 25px;
+  font-weight: 200;
+  padding: 0 15px;
+  color: #000;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+.logo p a {
+  text-decoration: none;
+}
+
+.logo p:hover {
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+
+.nav-right {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding: 0 30px;
+}
+
+.nav-right p {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.35px;
+  color: #222;
+}
+.nav-right a {
+  transition: all 0.5s linear;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transform: scaleX(0);
+}
+.nav-right a:hover {
+  border-bottom: 2px solid #ffd000f5;
+  transform: scaleX(1);
+  color: #3a52bf;
+}
+
+.nav-right i {
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 1px;
+  color: #3a52bf;
+  cursor: pointer;
+}
+
+/*Main Background*/
+.main-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 68px;
+  background-image: url("Assets/asset\ 2.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content {
+  position: absolute;
+  /* top: 10px; */
+  width: 890px;
+  height: 280px;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 27px;
+  text-align: center;
+}
+
+/*Button Animation*/
+.btn {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.btn button {
+  width: 149px;
+  height: 40px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 8px;
+}
+
+.btn-1 {
+  background-color: #735cf9d7;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+}
+
+.btn-1:hover {
+  background-color: #735cf9;
+}
+
+.btn-2 {
+  width: 100%;
+  color: #ffffff;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+}
+
+.btn-2:hover {
+  box-shadow: -2px 2px 8px black, inset 0.5px -0.5px 4px white;
+}
