@@ -39,7 +39,7 @@ body {
   font-size: 25px;
   font-weight: 200;
   padding: 0 15px;
-  color: black;
+  color: #000000;
   transition: all 0.5s linear;
   cursor: pointer;
 }
